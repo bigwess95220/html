@@ -1,0 +1,120 @@
+body{
+  background-color: white;
+}
+
+.croix{
+  position:absolute;
+  width:50px;
+  height:50px;
+  visibility:hidden;
+
+}
+
+.trait1{
+  position:absolute;
+  margin-top:21px;
+  background-color:red;
+  width:50px;
+  height:8px;
+  border-radius:10px;
+    transform:rotate(-45deg);
+}
+
+.trait2{
+  position:absolute;
+  margin-top:21px;
+  background-color:red;
+  width:50px;
+  height:8px;
+  border-radius:10px;
+  transform:rotate(45deg);
+}
+
+.anneau{
+  position:absolute;
+  width:50px;
+  height:50px;
+  visibility:hidden;
+}
+
+.disque{
+  position:absolute;
+  margin:5px;
+  background-color: #1B1FE8;
+  width:40px;
+  height:40px;
+  border-radius:100%;
+}
+
+.cercle{
+  position:absolute;
+  margin:11px;
+  width:28px;
+  height:28px;
+  border-radius: 100%;
+  background-color: white;
+}
+
+.plateau{
+  width:156px;
+  height:156px;
+  border: black 1px solid;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+}
+
+.case{
+  width:50px;
+  height:50px;
+  border: black 1px solid;
+  cursor: pointer;
+}
+
+.case2{
+  margin:-52px 52px 104px 52px;
+}
+
+.case3{
+  margin-top: -156px ;
+  margin-left: 104px;
+}
+
+.case5{
+  margin-top: -52px;
+  margin-left: 52px;
+}
+
+.case6{
+  margin-top:-52px;
+  margin-left: 104px;
+}
+
+.case8{
+  margin-top:-52px;
+  margin-left: 52px;
+}
+
+.case9{
+  margin-top:-52px;
+  margin-left: 104px;
+}
+
+h1{
+font-family:"Comic Sans MS";
+color:red;
+position:absolute;
+top:25%;
+left:50%;
+transform:translate(-50%,-25%);
+}
+
+h3{
+  color:blue;
+  font-family: Comic Sans MS;
+  position:absolute;
+  top:75%;
+  left:50%;
+  transform:translate(-50%,-75%);
+}
